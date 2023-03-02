@@ -1,0 +1,10 @@
+*.aux
+main.blg
+main.log
+main.toc
+main.fls
+main.out
+main.bbl
+main.blg
+TODO.md
+*.pdf
