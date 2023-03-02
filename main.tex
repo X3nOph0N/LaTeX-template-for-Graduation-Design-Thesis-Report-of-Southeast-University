@@ -1,0 +1,26 @@
+%!xelatex = 'xelatex --halt-on-error %O %S'
+
+% 欢迎使用我制作的东南大学本科生毕业设计（论文）报告模板，该论文模板与东南大学2023年提供的本科生毕业设计（论文）模板在格式上是基本一致的，如果你在使用overleaf编译此模板，记得将编译引擎修改为xelatex；如果你在本地编译，那么可以尝试使用我写的编译脚本,或者自己想办法解决,比如你在使用windows不能用shell script:)
+% 如果你发现有问题,欢迎在本模板的github链接TODO上提出issue,创建pull request或者fork仓库:)
+
+
+
+\documentclass{seu}
+
+
+\begin{document}
+
+
+\xiaosihao
+\input{chapters/title.tex}
+\input{chapters/announcement.tex}
+\input{chapters/abstract.tex}
+\input{chapters/contents.tex}
+\input{chapters/text.tex}
+\input{chapters/citation.tex}
+
+% 如果你不需要这两个部分就注释掉或者删掉
+\input{chapters/appendix.tex}
+\input{chapters/acknowledge.tex}
+
+\end{document}
