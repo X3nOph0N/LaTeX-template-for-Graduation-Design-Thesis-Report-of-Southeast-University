@@ -40,8 +40,7 @@
 \usepackage{longtable}
 \usepackage{makecell}
 \usepackage[heading=true]{ctex}
-% \usepackage{ulem}
-\usepackage{bibunits}
+\usepackage{multibib}
 
 \setmainfont{Times New Roman}
 
@@ -173,6 +172,7 @@
 \setlength{\abovedisplayskip}{2.5mm}
 \setlength{\belowdisplayskip}{2.5mm}
 
-\renewcommand\refname{\heiti\wuhao\centerline{~~}\global\def\refname{~~}}
+% \renewcommand\refname{\heiti\wuhao\centerline{~~}\global\def\refname{~~}}
 
 \renewcommand{\contentsname}{\heiti\sanhao 目录}
+

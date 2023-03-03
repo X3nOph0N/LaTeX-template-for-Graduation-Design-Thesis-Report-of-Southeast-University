@@ -10,8 +10,8 @@ fi
 
 xelatex main
 bibtex main
-xelatex main
-xelatex main
+bibtex book conference gathering news journal dissertation report standard patent database computerprogram electronicbulletins archive map dataset others
+xelatex main 
 if [ $1. = 'clean'.  ];then
     rm *.aux
     rm main.big

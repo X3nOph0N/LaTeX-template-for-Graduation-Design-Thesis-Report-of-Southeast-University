@@ -6,7 +6,7 @@
 \addcontentsline{toc}{section}{参考文献}
 列出作者直接阅读过或在正文中引用过的文献资料。撰写论文时，需注意引用权威和最新的文献。
 
-参考文献需在引文右上角用方括号“[]”标明序号，如“基本机构[1]”，并在参考文献中列出。每一条参考文献著录均以“.”结束。参考文献要另起一页，一律放在正文之后，不得放在各章节之后。例如\cite{example1}
+参考文献需在引文右上角用方括号“[]”标明序号，如“基本机构[1]”，并在参考文献中列出。每一条参考文献著录均以“.”结束。参考文献要另起一页，一律放在正文之后，不得放在各章节之后。例如\citejournal{example1}
 
 参考文献采用顺序编码制，需符合《信息与文献 参考文献著录规则》（GB/T 7714-2015）规范要求，文献类型和标识代码为：普通图书[M]、会议录[C]、汇编[G]、报纸[N]、期刊[J]、学位论文[D]、报告[R]、标准[S]、专利[P]、数据库[DB]、计算机程序[CP]、电子公告[EB]、档案[A]、舆图[CM]、数据集[DS]、其他[Z]。
 
@@ -14,5 +14,10 @@
 
 参考文献为五号宋体，英文及数字为五号Times New Roman字体，两端对齐。参考文献中的标点符号均为英文标点，常用的参考文献著录项目和格式示例如下：
 
-\bibliographystyle{gbt7714-numerical}
-\bibliography{citation}
+% \bibliographystyle{gbt7714-numerical}
+% \bibliography{citation}
+
+\bibliographystylejournal{gbt7714-numerical}
+\bibliographyjournal{citation}
+
+% 本项目在cls文件中利用multibib为每一个提到的类别都设置了一个新的引用项目,感觉不一定都用的上
