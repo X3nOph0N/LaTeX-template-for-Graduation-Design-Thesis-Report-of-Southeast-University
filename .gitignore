@@ -4,7 +4,7 @@ main.log
 main.toc
 main.fls
 main.out
-main.bbl
-main.blg
+*.bbl
+*.blg
 TODO.md
 *.pdf
