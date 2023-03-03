@@ -1,5 +1,5 @@
 # LaTeX template for Graduation Design(Thesis) Report of Southeast University
 
-# Working in progress
+# Preview
 
-1. Bibunits
+![](figures/preview.png)
