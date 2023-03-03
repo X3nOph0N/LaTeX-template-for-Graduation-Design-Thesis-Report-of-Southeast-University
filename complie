@@ -14,7 +14,8 @@ bibtex book conference gathering news journal dissertation report standard paten
 xelatex main 
 if [ $1. = 'clean'.  ];then
     rm *.aux
-    rm main.big
+    rm *.blg
+    rm *.bbl
     rm main.log
     rm main.toc
     rm main.fls
