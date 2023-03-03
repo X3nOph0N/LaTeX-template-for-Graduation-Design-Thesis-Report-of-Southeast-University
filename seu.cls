@@ -16,6 +16,7 @@
 \usepackage{bm}
 \usepackage{indentfirst}
 \usepackage{abstract} 
+\usepackage{array}
 \usepackage{amsthm}
 \usepackage{booktabs}    
 \usepackage{siunitx}

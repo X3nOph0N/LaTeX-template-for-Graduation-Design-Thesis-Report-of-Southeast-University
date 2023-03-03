@@ -14,9 +14,9 @@
     正文部分为小四号宋体，行间距1.5倍行距，首行缩进2个字符。
     
     \subsection{研究现状}
-    ......
+    \ldots
     \subsection{本文研究内容}
-    ......
+    \ldots
     \newpage
     \section{正文}
     
@@ -36,27 +36,21 @@
     \begin{figure}[bhp]
         \centering
         \includegraphics[scale=1]{figures/rainfall.png}
-        \caption{每小时降水量24小时均值分布图}
+        \caption{\wuhao 每小时降水量24小时均值分布图}
         \label{rainfall}
     \end{figure}
     
     \begin{figure}
         \centering
-        % \subfloat[速度障碍集合]{
-        %     \includegraphics[width=0.45\linewidth]{figures/speed-barrier-a.png}
-        % }\hfill
-        % \subfloat[避免碰撞集合]{
-        %     \includegraphics[width=0.45\linewidth]{figures/speed-barrier-b.png}
-        % }\hfill
         \begin{subfigure}{0.35\textwidth}
             \includegraphics[width=3.83cm,height=5cm]{figures/speed-barrier-a.png}
-            \subcaption{速度障碍集合}
+            \subcaption{\wuhao 速度障碍集合}
         \end{subfigure}
         \begin{subfigure}{0.35\textwidth}
             \includegraphics[height=5cm,width=5.51cm]{figures/speed-barrier-b.png}
-            \subcaption{避免碰撞集合}
+            \subcaption{\wuhao 避免碰撞集合}
         \end{subfigure}
-        \caption{速度障碍法速度选择}
+        \caption{\wuhao 速度障碍法速度选择}
         \label{speed}
     \end{figure}
     
@@ -68,7 +62,22 @@
     
     表格居中，边框为黑色直线1磅，中文为五号宋体，英文及数字为五号Times New Roman字体，表序与表名之间空一格，表格与下文之间空一行。
     
-    % TODO: add table here
+    
+    \begin{table}
+        \begin{center}
+            \caption{测试表格}
+            \begin{tabular}[c]{w{c}{0.3\linewidth}w{c}{0.3\linewidth}w{c}{0.3\linewidth}}
+                \hline
+                一 & 二 & 三\\
+                \hline
+                \ldots & \ldots &\ldots\\
+                \ldots & \ldots &\ldots\\
+                \ldots & \ldots &\ldots\\
+                \ldots & \ldots &\ldots\\
+                \hline
+            \end{tabular}
+        \end{center}
+    \end{table}
     
     \subsection{表达式}
     
